@@ -1,0 +1,5 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: resource-monitor-example_development
+  pool: 5
