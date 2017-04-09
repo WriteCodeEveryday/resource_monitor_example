@@ -3,3 +3,8 @@ development:
   encoding: unicode
   database: resource-monitor-example_development
   pool: 5
+
+production:
+  adapter: postgresql
+  url: <%= ENV['DATABASE_URL'] %>
+  pool: 20
