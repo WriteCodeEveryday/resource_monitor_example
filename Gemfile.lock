@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/WriteCodeEveryday/resource_monitor
+  revision: c38e83b5fcd1e7174fc8ba82a3fa7d82e3516651
+  specs:
+    resource_monitor (0.1.0)
+      actioncable
+      bundler (~> 1.14)
+      rails (~> 5.0.2)
+      rake (~> 10.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -113,12 +123,11 @@ GEM
       method_source
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (12.0.0)
+    rake (10.5.0)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
     redis (3.3.3)
-    resource_monitor (0.1.1)
     sass (3.4.23)
     sass-rails (5.0.6)
       railties (>= 4.0.0, < 6)
@@ -146,7 +155,7 @@ GEM
     turbolinks-source (5.0.0)
     tzinfo (1.2.3)
       thread_safe (~> 0.1)
-    uglifier (3.1.13)
+    uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
     web-console (3.5.0)
       actionview (>= 5.0)
@@ -171,7 +180,7 @@ DEPENDENCIES
   puma (~> 3.0)
   rails (~> 5.0.2)
   redis (~> 3.0)
-  resource_monitor
+  resource_monitor!
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
